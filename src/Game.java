@@ -38,7 +38,6 @@ public class Game {
 class Gamers {
     Scanner in = new Scanner(System.in);
     char[][] position = new char[][]{{49, 50, 51}, {52, 53, 54}, {55, 56, 57}};
-    int maxcount=3;
     void scheme() {
         for (int i = 0; i < position.length; i++) {
             System.out.println();
